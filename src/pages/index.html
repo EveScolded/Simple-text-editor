@@ -134,9 +134,65 @@
       media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
     />
   </head>
-  <body>  
+  <body>
     <main>
       <h1 class="main-header">Simple text editor</h1>
+
+      <div class="editor">
+        <p>
+          <select
+            name="select"
+            id="select"
+            class="editor__button editor__button--fontStyle editor__button--fontStyle-js"
+          >
+            <option value="Arial, sans-serif" selected="selected">Arial</option>
+            <option value="'Times New Roman', serif">Times New Roman</option>
+            <option value="Verdana, sans-serif">Verdana</option>
+            <option value="Impact, sans-serif">Impact</option>
+            <option value="'Dancing Script', cursive">Dancing Script</option>
+          </select>
+        </p>
+
+        <p>
+          <label>
+            <input
+              class="editor__button editor__button--fontSize editor__button--fontSize-js"
+              type="number"
+              value="16"
+              name="FontSize"
+              id="FontSize"
+            />
+          </label>
+        </p>
+
+        <p>
+          <button
+            class="editor__button editor__button--bold editor__button--bold-js"
+            type="button"
+          >
+            B
+          </button>
+        </p>
+
+        <p>
+          <button
+            class="editor__button editor__button--underline editor__button--underline-js"
+            type="button"
+          >
+            U
+          </button>
+        </p>
+
+        <p>
+          <button
+            class="editor__button editor__button--italic editor__button--italic-js"
+            type="button"
+          >
+            I
+          </button>
+        </p>
+      </div>
+
       <textarea
         class="textarea__content textarea__content--js"
         type="text"
@@ -145,14 +201,24 @@
         name="textarea"
         spellcheck="false"
       ></textarea>
+
       <div class="buttons">
-        <button class="buttons__content buttons__content--load-js" aria-label="load">
+        <button
+          class="buttons__content buttons__content--load-js"
+          aria-label="load"
+        >
           Load
         </button>
-        <button class="buttons__content buttons__content--clear-js" aria-label="clear">
+        <button
+          class="buttons__content buttons__content--clear-js"
+          aria-label="clear"
+        >
           Clear
         </button>
-        <button class="buttons__content buttons__content--save-js" aria-label="save">
+        <button
+          class="buttons__content buttons__content--save-js"
+          aria-label="save"
+        >
           Save
         </button>
       </div>
