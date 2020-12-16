@@ -1,0 +1,61 @@
+:root {
+    --bacground-color-B:  #fff;
+    --button-shadow-B: 1px 1px 16px 0 #000000;
+    --bacground-color-U:  #fff;
+    --button-shadow-U: 1px 1px 16px 0 #000000;
+    --bacground-color-I:  #fff;
+    --button-shadow-I: 1px 1px 16px 0 #000000;
+}
+
+.editor {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+
+  &__button {
+    background-color: #fff;
+    margin-bottom: 20px;
+    outline-color: rgb(211, 154, 30);
+    box-shadow: 1px 1px 16px 0 #000000;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 24px;
+    width: 30px;
+
+    &--fontStyle {
+      width: 150px;
+    }
+
+    &--fontSize {
+      width: 36px;
+      cursor: pointer;
+    }
+
+    &--boldON {
+        background-color: var(--bacground-color-B);
+        box-shadow: var(--button-shadow-B);
+    }
+
+    &--underlineON {
+        background-color: var(--bacground-color-U);
+        box-shadow: var(--button-shadow-U);
+    }
+
+    &--italicON {
+        background-color: var(--bacground-color-I);
+        box-shadow: var(--button-shadow-I);
+    }
+
+    &--bold {
+      font-weight: bold;
+    }
+
+    &--underline {
+      text-decoration: underline;
+    }
+
+    &--italic {
+      font-style: italic;
+    }
+  }
+}
