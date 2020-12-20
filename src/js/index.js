@@ -31,13 +31,12 @@ loadButton.addEventListener("click", () => {
 });
 
 
-/* usuwanie treści z textarea i local storage*/
+/* usuwanie treści z textarea*/
 
 const clearButton = document.querySelector(".buttons__content--clear-js");
 
 clearButton.addEventListener("click", () => {
-    entryInput.value = ''; 
-    localStorage.removeItem("entry");   
+    entryInput.value = '';
 });
 
 
