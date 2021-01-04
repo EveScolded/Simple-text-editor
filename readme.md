@@ -1,14 +1,13 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](./src/assets/img/cover.jpg)
 
-# WTF Webpack Starter Kit 
+# Simple text editor 
 
-Simple toolkit for your static websites development.
+Editor allowing simple text changes like font style, size or color and saving to local storage.
 
-## How to use it?
+## Webpack Starter Kit
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
-
-## Available scripts
+Toolkit for static websites development from WTF: Co ten frontend training course.
+### Available scripts
 
 `npm run start` - runs development mode
 
