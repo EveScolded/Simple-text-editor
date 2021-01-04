@@ -15,3 +15,7 @@ Toolkit for static websites development from WTF: Co ten frontend training cours
 
 `npm run publish` - runs build process and publish the page using `gh-pages` branch
 
+## Live view
+
+https://evescolded.github.io/simple-text-editor
+
